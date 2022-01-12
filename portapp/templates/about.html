@@ -1,0 +1,54 @@
+{%extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+<div class="container text-center mt-5 p-4">
+    <h3>MY NAME IS JONATHAN MWITA CHACHA</h3>
+    <p>I am a web developer and photographer. I love designing unique content <br>and I always take the creative route
+        when tackling problems.</p>
+    <h4 class="mt-3">BELOW ARE SOME OF THE TECHNOLOGIES I AM PROFICIENT IN</h4>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h5>SOFTWARE DEVELOPMENT</h5>
+            <div class="container d-flex">
+                <img class="techno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+                    alt="">
+                <img class="techno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png"
+                    alt="">
+                <img class="techno" src="https://banner2.cleanpng.com/20180417/fsw/kisspng-javascript-node-js-angularjs-jquery-github-5ad5a9c7373410.5023404615239520712261.jpg"
+                    alt="">
+            </div>
+            <div class="container d-flex">
+                <img class="techno" src="https://e7.pngegg.com/pngimages/159/366/png-clipart-django-python-computer-icons-logo-python-text-label.png"
+                    alt="">
+                <img class="techno" src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png"
+                    alt="">
+                <img class="techno" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmrNYpeYKYUZg0Z0yT7xaNak4BLd_w_F2acgQyHLUNJ08oilnKVCrxcEv0LaQ8Qb6i-pI&usqp=CAU"
+                    alt="">
+            </div>
+            <div class="container d-flex">
+                <img class="techno" src="https://pngset.com/images/python-logo-images-logo-background-python-programming-language-text-cross-symbol-number-transparent-png-1249596.png"
+                    alt="">
+                <img class="techno" src="https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png"
+                    alt="">
+                  <img src="https://w7.pngwing.com/pngs/752/651/png-transparent-angularjs-vue-js-others-angle-rectangle-triangle.png" alt="" class="techno">  
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <h5>PHOTOGRAPHY</h5>
+            <div class="container">
+                <div class="container d-flex">
+                    <img class="techno" src="https://banner2.cleanpng.com/20180408/ide/kisspng-adobe-lightroom-android-mobile-phones-apps-5aca6cbf9f2a55.309060511523215551652.jpg"
+                        alt="">
+                    <img class="techno" src="https://justcreative.com/wp-content/uploads/2021/06/Adobe-Photoshop.png.webp"
+                        alt="">
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAllBMVEX///8qADTqd//teP/1wv/pcP/88P/pbP/0fP/IZtoPABwkAC7vev8VACAaACUGABWyWMObS6oSAB6/X9EMABkAABInADEhACvSaeUcACf+9//0vv/oZf/HZtm5XMsfACkYACNJG1NVImDWbOmlUbXfcfMAAA5hKm13N4SORJw3DkJMHVddJ2mfTa4AAABsMXl/PI0/FUq6zicZAAADo0lEQVR4nO3de1OiUBiA8ZTd9igoFxGwi4CJl6ys7//lFhVRe3HcqS2T8/z+bMQZnjkcDhpydQUAAAAAAAAAAAAAAPDlbm5/nc/tzbl3v9L13e/zubs+9+5Xuv7TPJ8/NLmsJsb3++lNjPvWd7s3fngT1ffb38vvq5/exGx8N5MmNKEJTWhCE5qs0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNpJNNwqTjeatPlQttLxn8h4SX3CScOc6wd99qRVH0kItavfF8GvvdQN8mnaESX1dZSkXuo/+p0XLJTbyhUfWtZt6lt/A/MVZq2GSVRTmfmFjq2aTZtLLFgCbiCHr6aJTaNsmHyuKDh089muTnm7WDRkaWfGyirUUT48EZP7uuO+5lytobKE5bvya9bRPnJUm63W7iTdLx3mBRbx8aKDVp0in3p9NolUPFcDyarAQvvTKKldBkw862h481C2myFi9VefBUD5TANMPw6BvXsUljUk4okf9+f+PEs/uNxXQ5Wx5751o26Tjluae/v6/ddj99zU/Y+cWzspTVb1SrZZPBfDvLqvLEYyaThdtqqnxhZ1T0qn2TcFY2edysUILJ0zhfzx1eC+jVZPmuSfB2sMDVsUm8GyeNdRNzpEQRzZrszSf2+g/Bo/ZNduedzC4qad9kkhV7bbSKK+P23myy+WBB6XUuDst1rDUu1rF2ecYxrMhx57PldDnVac02edgWUNPwXRPDmfidbhyGeq3tX8a7A6WYTnZNLPf0pXLtmsR9p5xPy0Nnv0lXlyZ+kDPDgWe/ZrtRsl3Fatmkl6bpWzpazofNvfW79VwOH/2aNA21dvjBvZHtPijQsEkl4223KU3WRaxRvHspTVb7nqV7SWiyml+G8cF22jcxVDS1D7/t0rnJ6h+Vms7T5P1GGjYpzsXKynru1O/ITfRrYjiNdDQapY+27XUrX69jk3ZgmmZw/BtzHZt0jr6IJjShCU2uaFKFJhJNJJpINJFoItFEoolEE4kmEk0kmkg0kU43sYobaE83sbb32j7Xu8nAjTY/+BrN46MvKvKt7steeXg9fVfCJTdpDLY/+XoqSR5le//+P9yocdFNvghNaEITmtCEJjTZoIlEE4kmEk0kmkg0kWgi0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNJJpINJF4Lq3E84slnnMt8Tx0iSbS9d3v87n7mU1ubn+dz+3NuXcfAAAAAAAAAAAAAADo4C8dEbEzJqrwnAAAAABJRU5ErkJggg==" alt="" class="techno">  
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

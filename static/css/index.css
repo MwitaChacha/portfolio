@@ -1,0 +1,151 @@
+/* body{
+    background-color: #072227;
+    border: 20px solid #fff;
+} */
+
+
+.intro-section {
+    padding: 8%;
+    margin: 4% auto;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-pic {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.fas {
+    font-family: 'Montserrat';
+    color: #6867AC;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Inter';
+    font-size: smaller;
+}
+
+.beaut {
+    background-color: #A267AC;
+    color: white;
+    padding: 2px;
+}
+
+.social-buttons a {
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: #CE7BB0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+
+.social-buttons a:hover::before {
+    transform: scale(0);
+}
+
+.social-buttons a i {
+    transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i {
+    background: linear-gradient(45deg, #A267AC, #6867AC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(2);
+}
+
+.details-section {
+    padding: 5%;
+    margin: 5% auto;
+    box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+
+}
+.first{
+    background-color: #fff;
+    color: #fff;
+}
+.second{
+    background-color: #A267AC;
+}
+.third{
+    background-color: #CE7BB0;
+}
+.fourth{
+    background-color: #FFCDDD;
+}
+footer{
+    background-color: #6867AC;
+    height: 150px;
+}
+.foot-text{
+    margin-top:3%;
+}
+a{
+    text-decoration: none;
+
+}
+.port-pic{
+    width: 60%;
+    box-shadow: 0 10px 13px 0 rgba(0, 0, 0, 0.2), 0 11px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.port-section{
+    padding: 5%;
+    margin: 7% auto;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    width: 75%;
+}
+.btn{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: smaller;
+    font-weight: bolder;
+    background-color: #FFAD60;
+    color: #fff;
+    border-radius:0;
+    border: 0;
+    width: 50%;
+    margin: 2%;
+}
+#bg {
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-animation: myfirst 5s;
+    /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes myfirst {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.techno{
+    width: 10%;
+    object-fit: cover;
+    margin: 1%;
+}

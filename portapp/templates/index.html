@@ -1,1 +1,90 @@
-<p>Hi</p>
+{%extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+
+<!-- <section class="text-white">
+    <div style="height: 250px" class="row">
+        <div class="col bg-primary">
+            <p>First</p>
+        </div>
+        <div class="col bg-secondary">
+            <p>First</p>
+        </div>
+    </div>
+    <div style="height: 250px" class="row">
+        <div class="col bg-black">
+            <p>First</p>
+        </div>
+        <div class="col bg-danger">
+            <p>First</p>
+        </div>
+    </div>
+</section> -->
+<!-- <div class="container text-center">
+    <h1>"We are not going in circles, <br>the path is a spiral;<br>we have climbed so many steps"</h1>
+</div> -->
+<div class="container beginning">
+
+    <div id="bg" class="row intro-section">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <img class="my-pic" src="{% static "images/DSC_0039.jpg" %}" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="container mt-5 p-2">
+                <strong>
+                    <p>HI THERE! I'M</p>
+                </strong>
+                <h1>MWITA CHACHA</h1>
+                <p>A <span class="beaut">Web Developer</span> and <span class="beaut">Photographer</span> passionate
+                    about <br>creating amazing experiences, not only behind
+                    the lens but also behind the screen.</p>
+            </div>
+            <div class="social-buttons">
+                <a href="https://github.com/MwitaChacha?tab=repositories" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/Chacha1kanobi" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/jonathan-chacha-19b154206/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/mwi_tah/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center  container">
+        <a href="#target"><i class="fas fa-2x mb-5 fa-chevron-down"></i></a>
+    </div>
+</div>
+
+<div id="target" class="container details-section">
+    <section class="text-white">
+        <div style="height: 350px" class="row">
+            <div class="col first">
+                <a href="{% url 'projects' %}"><h1 class="">PROJECTS</h1></a>
+            </div>
+            <div class="col second">
+                <a href="{% url 'about' %}"><h1>ABOUT</h1></a>
+            </div>
+        </div>
+        <div style="height: 350px" class="row">
+            <div class="col third">
+                <a href="{% url 'contact' %}"><h1>CONTACT ME</h1></a>
+            </div>
+            <div class="col fourth">
+                <a target="_blank" href="https://mwita-gallery.herokuapp.com/"><h1>CREATIVE WORKS</h1></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="text-center  container">
+    <a href="#foot"><i class="fas fa-2x my-5 fa-chevron-down"></i></a>
+</div>
+
+<footer class="p-1" id="foot">
+    <p class="text-white text-center foot-text">"You are made for perfection, but you are not perfect.<br>You are a
+        masterpiece in the making"</p>
+    <p class="text-white text-center text-small">Made with Love<i style="color:red" class="fas ms-2 fa-heart"></i></p>
+</footer>
+{% endblock %}
